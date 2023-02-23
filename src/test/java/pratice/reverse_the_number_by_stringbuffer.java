@@ -17,15 +17,11 @@ public class reverse_the_number_by_stringbuffer {
 		
 StringBuffer newq=new StringBuffer(ak);
 
-//StringBuffer s=newq.delete(2, 4);
+StringBuffer revertheline=newq.reverse();
 
-//System.out.println(s);
+System.out.println("Reverse Number is :"+revertheline);
 
-//StringBuffer revertheline=newq.reverse();
-//
-//System.out.println("Reverse Number is :"+revertheline);
-//
-//scdh.close();
+scdh.close();
 
 	}
 
